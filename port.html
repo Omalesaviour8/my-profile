@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fontawesome/css/all.css">
+</head>
+<body>
+    <header class="topbar">
+        <span class="logo">sayviour</span>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+
+        </div>
+       <div class="navbar">
+        <nav class="menu">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="port.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+        <div>
+            <span class="circle"><i class="fab fa-linkedin"></i></span>
+            <span class="circle"><i class="fab fa-twitter"></i></span>
+            <span class="circle"><i class="fab fa-github"></i></span>
+        </div>
+       </div>
+
+    </header>
+    <div class="banner-wrapper">
+        <div class="banner-area">
+            <h1>
+                Portfolio
+            </h1>
+        </div>
+        <div class="port-text">
+            <span>Project</span>
+            <div class="container">
+                <div class="port-img">
+                    <img src="images/web2.jpg" alt="">
+                </div>
+                <div class="port-img">
+                    <img src="images/web3.jpg" alt="">
+                </div>
+                <div class="port-img">
+                    <img src="images/web4.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="foot">
+        <div class="editfoot">
+            <h1>Let's discuss for  project</h1>
+            <span>Hire me, am open for a job</span>
+            <div>
+                <a href="contact.html" class="botton">
+                     <span class="btn">lets connect</span>
+                </a>
+            </div>
+        </div>
+        <div class="bottom-menu">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="contact.html">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        
+        <div>
+            <span class="circle"><i class="fab fa-linkedin"></i></span>
+            <span class="circle"><i class="fab fa-twitter"></i></span>
+            <span class="circle"><i class="fab fa-github"></i></span>
+        </div>
+        </div>
+        <p class="endnote">&copy; Copyright 2022 All right reserved | made with <i class="fas fa-heart"></i> by saviour</p>
+    </footer>
+    <script>
+        const btn = document.getElementById("menu-btn")
+        document.querySelector(".menu-btn").addEventListener("click", () => document.querySelector(".navbar").classList.toggle("show"))
+    </script>
+</body>
+</html>
